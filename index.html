@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Dues Certificate Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group input[type="date"] {
+            width: 100%;
+        }
+        .signature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .signature p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .form-group button {
+            background-color: #000000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .form-group button:hover {
+            background-color: #444a44;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            .header h2 {
+                font-size: 1.2em;
+            }
+            .form-group input {
+                padding: 8px;
+            }
+        }
+        @media (max-width: 480px) {
+            .header h2 {
+                font-size: 1em;
+            }
+            .form-group input {
+                padding: 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>थकबाकी नसल्याचे प्रमाणपत्र<br>No Dues Certificate</h2>
+        </div>
+        <form id="grampanchayat">
+            <div class="form-group">
+                <label for="office">ग्रामपंचायत कार्यालय</label>
+                <input type="text" id="office" name="office" >
+            </div>
+            <div class="form-group">
+                <label for="taluka">ता.</label>
+                <input type="text" id="taluka" name="taluka">
+            </div>
+            <div class="form-group">
+                <label for="district">जि.</label>
+                <input type="text" id="district" name="district" >
+            </div>
+            <div class="form-group">
+                <label for="office_en">Grampanchayat Office</label>
+                <input type="text" id="office_en" name="office_en" >
+            </div>
+            <div class="form-group">
+                <label for="taluka_en">Tal.</label>
+                <input type="text" id="taluka_en" name="taluka_en" >
+            </div>
+            <div class="form-group">
+                <label for="district_en">Dist.</label>
+                <input type="text" id="district_en" name="district_en" >
+            </div>
+            <div class="form-group">
+                <label for="serial_number">जा़.क्र.</label>
+                <input type="text" id="serial_number" name="serial_number">
+            </div>
+            <div class="form-group">
+                <label for="date">दिनांक:</label>
+                <input type="date" id="date" name="date" >
+            </div>
+            <div class="form-group">
+                <label for="grampanchayat">ग्रामपंचायत</label>
+                <input type="text" id="grampanchayat" name="grampanchayat" >
+            </div>
+            <div class="form-group">
+                <label for="taluka2">ता.</label>
+                <input type="text" id="taluka2" name="taluka2" >
+            </div>
+            <div class="form-group">
+                <label for="district2">जि.</label>
+                <input type="text" id="district2" name="district2" >
+            </div>
+            <div class="form-group">
+                <label for="grampanchayat_en">Grampanchayat</label>
+                <input type="text" id="grampanchayat_en" name="grampanchayat_en" >
+            </div>
+            <div class="form-group">
+                <label for="taluka2_en">Tal.</label>
+                <input type="text" id="taluka2_en" name="taluka2_en" >
+            </div>
+            <div class="form-group">
+                <label for="district2_en">Dist.</label>
+                <input type="text" id="district2_en" name="district2_en" >
+            </div>
+            <div class="form-group">
+                <label for="name">श्री/श्रीमती</label>
+                <input type="text" id="name" name="name" >
+            </div>
+            <div class="form-group">
+                <label for="name_en">Mr./Mrs.</label>
+                <input type="text" id="name_en" name="name_en" >
+            </div>
+            <div class="form-group">
+                <label for="aadhar_number">आधार कार्ड क्रमांक</label>
+                <input type="text" id="aadhar_number" name="aadhar_number" >
+            </div>
+            <div class="form-group">
+                <label for="aadhar_number_en">Adhar Card Number</label>
+                <input type="text" id="aadhar_number_en" name="aadhar_number_en" >
+            </div>
+            <div class="form-group">
+                <label for="residence">हे/ह्या</label>
+                <input type="text" id="residence" name="residence" >
+            </div>
+            <div class="form-group">
+                <label for="residence_taluka">ता.</label>
+                <input type="text" id="residence_taluka" name="residence_taluka" >
+            </div>
+            <div class="form-group">
+                <label for="residence_district">जि.</label>
+                <input type="text" id="residence_district" name="residence_district" >
+            </div>
+            <div class="form-group">
+                <label for="residence_en">is a permanent resident of</label>
+                <input type="text" id="residence_en" name="residence_en" >
+            </div>
+            <div class="form-group">
+                <label for="residence_taluka_en">Tal.</label>
+                <input type="text" id="residence_taluka_en" name="residence_taluka_en" >
+            </div>
+            <div class="form-group">
+                <label for="residence_district_en">Dist.</label>
+                <input type="text" id="residence_district_en" name="residence_district_en" >
+            </div>
+            <div class="form-group">
+                <label for="place">ठिकाण:</label>
+                <input type="text" id="place" name="place" >
+            </div>
+            <div class="form-group">
+                <label for="place_en">Place:</label>
+                <input type="text" id="place_en" name="place_en" >
+            </div>
+            <div class="form-group signature">
+                <p>सही व शिक्का <br> Signature with Stamp<br> सरपंच/ग्रामसेवक/ग्रामविकास अधिकारी<br> Sarpanch/Gramsevak/Village Development Officer</p>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby1400jIPZVnM75gT54HalO7io_jdZXzoQgCFhL0F2cpVj5lpXLsqUdIYjrV7bMjUfDUQ/exec'; // Replace with your Google Apps Script web app URL
+        const form = document.getElementById('grampanchayat');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            const formData = new FormData(form);
+
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new URLSearchParams(formData)
+                })
+                
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'Success') {
+                        alert('फॉर्म यशस्वीपणे सबमिट केला गेला आहे.');
+                        window.location.href = 'form.html'; // Redirect to the form.html page after successful form submission
+                    } else {
+                        alert('फॉर्म सबमिट करण्यात त्रुटी: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    alert('फॉर्म सबमिट करण्यात त्रुटी: ' + error.message);
+                });
+        });
+
+    </script>
+</body>
+</html>
